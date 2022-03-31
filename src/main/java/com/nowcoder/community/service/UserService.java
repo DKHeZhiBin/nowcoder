@@ -2,7 +2,7 @@ package com.nowcoder.community.service;
 
 import com.nowcoder.community.dao.LoginTicketMapper;
 import com.nowcoder.community.dao.UserMapper;
-import com.nowcoder.community.entity.CommunityConstant;
+import com.nowcoder.community.util.CommunityConstant;
 import com.nowcoder.community.entity.LoginTicket;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.util.CommunityUtil;
@@ -165,5 +165,9 @@ public class UserService implements CommunityConstant {
 
     public int updateHeader(int userId, String headerUrl) {
         return userMapper.updateHeader(userId, headerUrl);
+    }
+
+    public User findUserByName(String username) {
+        return userMapper.selectByName(username);
     }
 }

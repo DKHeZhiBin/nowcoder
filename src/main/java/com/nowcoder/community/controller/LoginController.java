@@ -1,12 +1,10 @@
 package com.nowcoder.community.controller;
 
 import com.google.code.kaptcha.Producer;
-import com.nowcoder.community.entity.CommunityConstant;
+import com.nowcoder.community.util.CommunityConstant;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.UserService;
-import com.nowcoder.community.util.MailClient;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.ibatis.annotations.Param;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +15,6 @@ import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.thymeleaf.TemplateEngine;
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.Cookie;

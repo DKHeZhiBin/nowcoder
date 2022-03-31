@@ -1,5 +1,5 @@
-//该文件存放全局变量
-var CONTEXT_PATH="/community"
+var CONTEXT_PATH = "/community";
+
 window.alert = function(message) {
 	if(!$(".alert-box").length) {
 		$("body").append(
