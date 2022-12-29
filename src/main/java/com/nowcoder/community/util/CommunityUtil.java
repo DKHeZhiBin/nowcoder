@@ -7,7 +7,7 @@ import org.springframework.util.DigestUtils;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
-
+我的名字叫kittle
 public class CommunityUtil {
 
     // 生成随机字符串
