@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 我的名字叫kittle
+我是dkhzb
 public class CommunityUtil {
 第二次提交
     // 生成随机字符串
