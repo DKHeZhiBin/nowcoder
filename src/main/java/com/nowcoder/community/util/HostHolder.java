@@ -2,7 +2,7 @@ package com.nowcoder.community.util;
 
 import com.nowcoder.community.entity.User;
 import org.springframework.stereotype.Component;
-
+2
 /**
  * 持有用户信息,用于代替session对象.
  */
