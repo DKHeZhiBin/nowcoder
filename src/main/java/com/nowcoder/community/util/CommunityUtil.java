@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.UUID;
 我的名字叫kittle
 public class CommunityUtil {
-
+第二次提交
     // 生成随机字符串
     public static String generateUUID() {
         return UUID.randomUUID().toString().replaceAll("-", "");
